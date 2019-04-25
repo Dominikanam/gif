@@ -4,7 +4,7 @@
   "description": "https://dominikanam.github.io/",
   "main": "index.js",
   "scripts": {
-	"start": "npm run watch",
+    "start": "http-server",
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
     "init-project": "npm install && npm-run-all init:*",
@@ -37,6 +37,7 @@
     "browser-sync": "^2.26.3",
     "browsersync": "0.0.1-security",
     "globstar": "^1.0.0",
+    "http-server": "^0.11.1",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.10.0",
     "npm-run-all": "^4.1.5",
